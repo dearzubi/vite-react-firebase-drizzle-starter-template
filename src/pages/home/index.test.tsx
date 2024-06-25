@@ -1,4 +1,4 @@
-import routes from '@routes';
+import routes from '@/routes';
 import {RouterProvider} from 'react-router-dom';
 import {fireEvent, render} from '@testing-library/react';
 
