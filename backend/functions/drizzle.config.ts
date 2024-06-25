@@ -1,4 +1,4 @@
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 import {defineConfig} from "drizzle-kit";
 
 dotenv.config({
