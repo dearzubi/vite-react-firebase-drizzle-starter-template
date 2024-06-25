@@ -1,4 +1,4 @@
-import {shallowEqual} from '@utils';
+import {shallowEqual} from '@utils/equal';
 import {StoreApi, useStore} from 'zustand';
 
 type ExtractState<S> = S extends {

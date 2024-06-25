@@ -4,15 +4,14 @@
     "paths": {
       "@styles/*": ["./styles/*"],
       "@assets/*": ["./assets/*"],
-      "@routes": ["./routes/index"],
-      "@apis": ["./apis/index"],
-      "@components": ["./components/index"],
-      "@hooks": ["./hooks/index"],
-      "@pages": ["./pages/index"],
+      "@routes/*": ["./routes/*"],
+      "@apis/*": ["./apis/*"],
+      "@components/*": ["./components/*"],
+      "@hooks/*": ["./hooks/*"],
       "@pages/*": ["./pages/*"],
-      "@stores": ["./stores/index"],
-      "@models": ["./models/index"],
-      "@utils": ["./utils/index"]
+      "@stores/*": ["./stores/*"],
+      "@models/*": ["./models/*"],
+      "@utils/*": ["./utils/*"]
     }
   }
 }
