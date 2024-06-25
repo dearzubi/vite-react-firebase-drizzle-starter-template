@@ -4,7 +4,7 @@
 
   @layer base {
     :root {
-      --background: 0 0% 100%;
+      --background: 100% 100% 100%;
       --foreground: 222.2 84% 4.9%;
 
       --card: 0 0% 100%;
@@ -74,3 +74,11 @@
       @apply bg-background text-foreground;
     }
   }
+
+  body,
+html {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #20232a;
+}

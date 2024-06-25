@@ -1,11 +1,3 @@
-body,
-html {
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: #20232a;
-}
-
 .title {
   margin-top: 80px;
   color: white;

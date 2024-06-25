@@ -7,6 +7,8 @@ import eslint from '@nabla/vite-plugin-eslint';
 import postcssNest from 'postcss-nesting';
 import postcssPresetEnv from 'postcss-preset-env';
 import browserslistToEsbuild from 'browserslist-to-esbuild';
+import tailwindcss from 'tailwindcss';
+
 
 export default defineConfig(function () {
   return {
@@ -46,6 +48,7 @@ export default defineConfig(function () {
       },
       postcss: {
         plugins: [
+          tailwindcss(),
           postcssNest(),
           postcssPresetEnv({
             stage: 3,
