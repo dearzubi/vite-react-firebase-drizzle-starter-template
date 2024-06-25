@@ -20,5 +20,5 @@
   },
   "extends": "./tsconfig.paths.json",
   "exclude": ["node_modules", "cypress.config.ts"],
-  "include": ["src", "vite.config.ts", "__tests__", ".eslintrc.js", "tailwind.config.ts"]
+  "include": ["./src/**/*", "vite.config.ts", "__tests__", ".eslintrc.js", "tailwind.config.ts"]
 }

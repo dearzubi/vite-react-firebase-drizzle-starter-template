@@ -1,4 +1,4 @@
-import {equal} from '@utils/equal';
+import {equal} from '@/utils';
 import {createWithEqualityFn} from 'zustand/traditional';
 
 type State = {
